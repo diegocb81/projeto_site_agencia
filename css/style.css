@@ -123,7 +123,7 @@ section.chamada-servicos{
 
 .descricao-servicos{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 .img-servicos{
@@ -136,9 +136,27 @@ section.chamada-servicos{
 
 .detalhes-servicos{
     width: 40%;
+    padding: 30px 30px;
+    margin: 10px 0;
+}
+
+.descricao-servicos h3{
+    color: #535b6c;
+    font-size: 26px;
+    font-weight: normal;
+}
+
+.detalhes-servicos p{
+    color: #9299a5;
+    font-size: 14px;
+
 }
 
 @media screen and (max-width: 768px) {
+    .img-servicos,
+    .detalhes-servicos{
+        width: 100%;
+    }
     .topo-1,
     .topo-2{
         width: 100%;
