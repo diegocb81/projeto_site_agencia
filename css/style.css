@@ -102,6 +102,42 @@ header{
     color: white;
 }
 
+section.chamada-servicos{
+    padding: 40px 0;
+}
+
+.chamada-servicos{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.chamada-servicos h4{
+    font-size: 16px;
+    color: #535b6c;
+}
+
+.chamada-servicos h1{
+    font-size: 55px;
+    color: #525dad; 
+}
+
+.descricao-servicos{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.img-servicos{
+    width: 60%;
+}
+
+.img-servicos img{
+    max-width: 100%;
+}
+
+.detalhes-servicos{
+    width: 40%;
+}
+
 @media screen and (max-width: 768px) {
     .topo-1,
     .topo-2{
