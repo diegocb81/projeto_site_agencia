@@ -152,6 +152,31 @@ section.chamada-servicos{
 
 }
 
+.texto-depoimento{
+    float: left;
+    width: 50%;
+}
+
+.texto-depoimento h3{
+    color: #535b6c;
+    font-size: 33px;
+    font-weight: normal;
+}
+
+.texto-depoimento h4{
+    font-size: 22px;
+    color: #9299a5;
+}
+
+.img-depoimento{
+    float: left;
+    width: 50%;
+}
+
+.img-depoimento img{
+    max-width: 100%;
+}
+
 @media screen and (max-width: 768px) {
     .img-servicos,
     .detalhes-servicos{
