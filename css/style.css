@@ -177,7 +177,24 @@ section.chamada-servicos{
     max-width: 100%;
 }
 
+.img-showcase{
+    width: 100%;
+    text-align: center;
+}
+
+.img-showcase img{
+    max-width: 100%;
+}
+
 @media screen and (max-width: 768px) {
+
+    .img-depoimento,
+    .texto-depoimento{
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
     .img-servicos,
     .detalhes-servicos{
         width: 100%;
